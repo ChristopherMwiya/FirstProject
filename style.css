@@ -1,0 +1,117 @@
+.head h1,h3,p{
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  animation-name: anime;
+  animation-duration: .5s;
+}
+.img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px blue;
+  margin:10px;
+  padding: 10px;
+  animation-name: anime;
+  animation-duration: .6s;
+}
+@keyframes anime {
+  0%{
+    transform: translateX(-190%)
+  }
+  90%{
+    transform: translateX(10%)
+  }
+  100%{
+    transform: translateX(0%)
+  }
+}
+
+@keyframes animes {
+  0%{
+    transform: translateX(190%)
+  }
+  90%{
+    transform: translateX(10%)
+  }
+  100%{
+    transform: translateX(0%)
+  }
+}
+.Fimage{
+  width:300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px yellow;
+  border-radius: 10px;
+  animation-name: anime;
+  animation-duration: 15s;
+}
+.main h1,.contact h2 {
+  text-align: center;
+  animation-name: anime;
+  animation-duration: 1s;
+}
+h3 {
+  transition: 1s;
+}
+h3{
+  box-shadow: 2px 2px 5px;
+  font-family: 'Tangerine', serif;
+}
+.main ul li{
+  all:unset;
+  text-align: center;
+  box-shadow: 2px 2px 5px;
+  animation-name: anime;
+  animation-duration: 13s;
+}
+.two {
+  border-radius:50px;
+  width: 100%;
+  box-shadow: 2px 2px 5px orangered;
+  margin:10px;
+  animation-name: animes;
+  animation-duration: 5s;
+}
+.Simage{
+  width:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  animation-name: animes;
+  animation-duration: 3s;
+}
+.name {
+  font-family: 'Tangerine', serif;
+}
+.information {
+  background: skyblue;
+  color: darkblue;
+  box-shadow: 2px 2px 5px purple;
+  animation-name: anime;
+  animation-duration: 4s;
+}
+.information1 {
+  background: yellow;
+  color: darkblue;
+  box-shadow: 2px 2px 5px blueviolet;
+  padding: 10px;
+  animation-name: animes;
+  animation-duration: 3s;
+}
+h6 {
+  animation-name: anime;
+  animation-duration: 20s;
+}
+h4 {
+  animation-name: animes;
+  animation-duration: 10s;
+}
+h2 {
+  background: yellow;
+  color: darkblue;
+  box-shadow: 2px 2px 5px greenyellow;
+  padding: 10px;
+  animation-name: animes;
+  animation-duration: 3s;
+}
